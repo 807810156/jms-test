@@ -6,7 +6,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 import javax.jms.*;
 
 /**
- * 注意：主题模式的消息，要先启动订阅者，再会接收到生产者生产的消息
+ * 注意：主题模式的消息，要先启动订阅者，再会接收到生产者生产的消息，订阅者无法接收生产者之前的消息
  */
 public class TopiceComsumers {
     //默认用户
